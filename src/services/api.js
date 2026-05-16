@@ -14,8 +14,7 @@ export async function getAllCharacters() {
       characters = [...characters, ...data.results];
       url = data.info.next;
 
-      // Pequeña pausa entre peticiones para no saturar la API
-      await new Promise((resolve) => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 80));
     }
 
     if (characters.length === 0) {

@@ -14,6 +14,7 @@ function CharacterCard({ character }) {
           src={image}
           alt={name}
           className="card-img-top"
+          loading="lazy"
         />
         <div className="card-body">
           <h5 className="card-title fw-bold">{name}</h5>
