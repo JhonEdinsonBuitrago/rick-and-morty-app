@@ -5,7 +5,7 @@ permitiendo visualizar y filtrar los personajes de la serie.
 
 ## 🚀 Demo en vivo
 
-[Ver aplicación desplegada](#) <!-- Actualiza este link después del deploy en Vercel -->
+[Ver aplicación desplegada](https://rick-and-morty-app-gamma-rust.vercel.app/)
 
 ---
 
@@ -54,7 +54,7 @@ src/
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/rick-and-morty-app.git
+git clone
 ```
 
 ### 2. Entra a la carpeta del proyecto
@@ -84,7 +84,7 @@ http://localhost:5173
 ## 🌐 Deploy
 
 La aplicación está desplegada en Vercel:  
-[Ver aplicación](#) <!-- Actualiza este link después del deploy -->
+[Ver aplicación](https://rick-and-morty-app-gamma-rust.vercel.app/)
 
 ---
 
