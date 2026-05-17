@@ -1,12 +1,14 @@
 import { Link, useLocation } from 'react-router-dom'
+import { GiDna1 } from 'react-icons/gi'
 
 function Navbar() {
   const location = useLocation()
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark px-4">
-      <Link className="navbar-brand fw-bold" to="/">
-        🧬 Rick & Morty
+      <Link className="navbar-brand fw-bold d-flex align-items-center gap-2" to="/">
+        <GiDna1 size={24} />
+        Rick & Morty
       </Link>
 
       <button

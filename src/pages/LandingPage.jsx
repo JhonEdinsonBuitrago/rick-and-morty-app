@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import { FaRocket, FaMicroscope, FaGlobe, FaFlask } from 'react-icons/fa'
+import { GiAlienStare, GiMolecule } from 'react-icons/gi'
 
 function LandingPage() {
   return (
@@ -11,7 +13,10 @@ function LandingPage() {
 
             {/* TEXTO */}
             <div className="col-12 col-lg-7 text-center text-lg-start">
-              <p className="hero-label">🧪 Bienvenido al laboratorio</p>
+              <p className="hero-label">
+                <FaFlask size={14} className="me-2" />
+                Bienvenido al laboratorio
+              </p>
               <h1 className="hero-title">Rick & Morty</h1>
               <p className="hero-subtitle">
                 Explora el multiverso. Descubre más de{' '}
@@ -20,10 +25,12 @@ function LandingPage() {
               </p>
               <div className="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap mt-4">
                 <Link to="/characters" className="btn btn-hero-primary">
-                  🚀 Explorar personajes
+                  <FaRocket className="me-2" />
+                  Explorar personajes
                 </Link>
                 <Link to="/filter" className="btn btn-hero-secondary">
-                  🔬 Filtrar por especie
+                  <FaMicroscope className="me-2" />
+                  Filtrar por especie
                 </Link>
               </div>
             </div>
@@ -32,7 +39,7 @@ function LandingPage() {
             <div className="col-12 col-lg-5 d-flex justify-content-center">
               <div className="hero-image-wrapper">
                 <img
-                  src="https://th.bing.com/th/id/OIP.7k3kH4LU_-8i9yPS_fT30wHaDt?w=307&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                  src="/hero.jpg"
                   alt="Rick and Morty"
                   className="hero-image"
                 />
@@ -48,21 +55,27 @@ function LandingPage() {
         <div className="row g-4 text-center">
           <div className="col-12 col-md-4">
             <div className="info-card">
-              <div className="info-icon">🌌</div>
+              <div className="info-icon">
+                <FaGlobe size={40} />
+              </div>
               <h4>Multiverso infinito</h4>
               <p>Personajes de todas las dimensiones y realidades alternas del universo de Rick y Morty.</p>
             </div>
           </div>
           <div className="col-12 col-md-4">
             <div className="info-card">
-              <div className="info-icon">👽</div>
+              <div className="info-icon">
+                <GiAlienStare size={40} />
+              </div>
               <h4>Múltiples especies</h4>
               <p>Humanos, aliens, robots, criaturas mitológicas y muchas especies más esperan ser exploradas.</p>
             </div>
           </div>
           <div className="col-12 col-md-4">
             <div className="info-card">
-              <div className="info-icon">⚗️</div>
+              <div className="info-icon">
+                <GiMolecule size={40} />
+              </div>
               <h4>Ciencia loca</h4>
               <p>Basada en la serie animada de Adult Swim creada por Justin Roiland y Dan Harmon.</p>
             </div>
