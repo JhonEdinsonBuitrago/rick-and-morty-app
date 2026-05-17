@@ -39,7 +39,7 @@ function LandingPage() {
             <div className="col-12 col-lg-5 d-flex justify-content-center">
               <div className="hero-image-wrapper">
                 <img
-                  src="/hero.jpg"
+                  src="https://th.bing.com/th/id/OIP.7k3kH4LU_-8i9yPS_fT30wHaDt?w=307&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
                   alt="Rick and Morty"
                   className="hero-image"
                 />
