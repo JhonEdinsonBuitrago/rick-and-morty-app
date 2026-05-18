@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-/* ===== VARIABLES DE COLOR ===== */
+
 :root {
   --bg-primary: #1E1E1E;
   --bg-secondary: #2A2A2A;
@@ -14,7 +14,7 @@
   --border-color: #3A3A3A;
 }
 
-/* ===== RESET GLOBAL ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ body {
   min-height: 100vh;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
   background-color: var(--bg-secondary) !important;
   border-bottom: 2px solid var(--green-chemical);
@@ -71,14 +71,14 @@ body {
   color: var(--green-chemical) !important;
 }
 
-/* ===== TÍTULOS ===== */
+
 h2 {
   color: var(--yellow-acid);
   font-weight: 700;
   letter-spacing: 1px;
 }
 
-/* ===== CARDS ===== */
+
 .card {
   background-color: var(--bg-card) !important;
   border: 1px solid var(--border-color) !important;
@@ -110,7 +110,7 @@ h2 {
   object-fit: cover;
 }
 
-/* ===== BADGES ===== */
+
 .badge {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 0.75rem;
@@ -130,7 +130,7 @@ h2 {
   background-color: var(--text-muted) !important;
 }
 
-/* ===== BOTONES DE FILTRO ===== */
+
 .btn-outline-dark {
   color: var(--text-primary) !important;
   border-color: var(--border-color) !important;
@@ -156,27 +156,27 @@ h2 {
   box-shadow: 0 0 14px rgba(127, 255, 0, 0.5) !important;
 }
 
-/* ===== SPINNER ===== */
+
 .spinner-border {
   color: var(--green-chemical) !important;
   width: 3rem;
   height: 3rem;
 }
 
-/* ===== TEXTO MUTED ===== */
+
 .text-muted {
   color: var(--text-muted) !important;
   font-size: 0.9rem;
 }
 
-/* ===== ERROR PAGE ===== */
+
 .display-1 {
   color: var(--green-chemical);
   font-size: 8rem;
   text-shadow: 0 0 30px rgba(127, 255, 0, 0.5);
 }
 
-/* ===== RESPONSIVO ===== */
+
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 1.1rem;
@@ -191,7 +191,7 @@ h2 {
   }
 }
 
-/* ===== LANDING PAGE ===== */
+
 .landing-wrapper {
   min-height: 100vh;
 }
@@ -203,7 +203,7 @@ h2 {
   overflow: hidden;
 }
 
-/* Fondo sutil con gradiente */
+
 .hero-section::before {
   content: '';
   position: absolute;
@@ -278,7 +278,7 @@ h2 {
   object-fit: cover;
 }
 
-/* BOTONES HERO */
+
 .btn-hero-primary {
   background-color: var(--green-chemical);
   color: #1E1E1E;
@@ -314,7 +314,7 @@ h2 {
   transform: translateY(-2px);
 }
 
-/* INFO CARDS */
+
 .info-section {
   background-color: var(--bg-primary);
 }
@@ -352,7 +352,7 @@ h2 {
   margin: 0;
 }
 
-/* RESPONSIVO HERO */
+
 @media (max-width: 991px) {
   .hero-section {
     padding: 4rem 1rem;
